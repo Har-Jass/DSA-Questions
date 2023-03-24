@@ -2,7 +2,7 @@
 using namespace std;
 
 // we're playing with ASCII values
-string convertUppercase(string str) {
+string convertLowercase(string str) {
     // iterate on every character of the string
     for(int i = 0; i < str.length(); i++) {
         // in each character we subtract 'A' and add 'a'
@@ -19,5 +19,5 @@ string convertUppercase(string str) {
 int main() {
     string str = "JFDKSHFI";
     cout << "\nOriginal String is: " << str << endl;
-    cout << "\nLowercase String is: " << convertUppercase(str) << endl;
+    cout << "\nLowercase String is: " << convertLowercase(str) << endl;
 }
